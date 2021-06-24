@@ -51,11 +51,22 @@
       <div class="note-content p-2">
         <div
           class="note-text text-gray-600 p-4 h-full"
-          :class="`bg-${note.accent}-300`"
+          :class="`bg-${note.accent}-300`  "
         >
           {{ note.note }}
         </div>
       </div>
+
+      <div class="bg-red-300"></div>
+      <div class="border-red-300"></div>
+      <div class="bg-green-300"></div>
+      <div class="border-green-300"></div>
+      <div class="bg-blue-300"></div>
+      <div class="border-blue-300"></div>
+      <div class="bg-yellow-300"></div>
+      <div class="border-yellow-300"></div>
+      <div class="bg-purple-300"></div>
+      <div class="border-purple-300"></div>
     </template>
   </div>
 </template>
