@@ -89,7 +89,7 @@ export default {
   },
   methods: {
     getNote(_id) {
-      console.log(_id);
+      // console.log(_id);
       var docRef = db.collection("notes").doc(_id);
 
       docRef
