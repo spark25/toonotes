@@ -74,7 +74,7 @@
 <script>
 import Loader from "../components/Loader.vue";
 import Working from "../components/WorkingLoader.vue";
-import { db } from "../firebase";
+import { db } from "../firebase/firebase";
 export default {
   components: {
     Loader,

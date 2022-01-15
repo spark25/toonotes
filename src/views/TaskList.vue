@@ -34,7 +34,7 @@
 
 <script>
 import Note from "../components/Note.vue";
-import { db } from "../firebase";
+import { db } from "../firebase/firebase";
 // import axios from "axios";
 import Loader from "../components/Loader.vue";
 
